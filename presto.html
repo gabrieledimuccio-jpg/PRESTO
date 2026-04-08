@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Presto</title>
     <!-- swiper js -->
-    <link
-    rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- link css -->
     <link rel="stylesheet" href="./presto.css">
 </head>
 <body>
+    <!-- header inizio -->
     <header class="container-fluid">
         <div class="row row1 align-items-center bg-dark">
             <div class="col-12 d-flex justify-content-center align-items-center h-100">
@@ -30,34 +30,40 @@
                 </ul>
             </div>
         </div>
+     
         <div class="row" id="altezza">
             <div class="col-12 d-flex justify-content-center align-items-center">
-                <img src="https://fontmeme.com/permalink/260320/e7a054ea.png" alt="immagine presto">
+                <img class="presto-custom" src="https://fontmeme.com/permalink/260320/e7a054ea.png" alt="immagine presto">
             </div>
         </div>
+
     </header>
+    <!-- header fine -->
+
+
+    <!-- section casate inizio -->
     <!-- Slider main container -->
-    <div class="swiper div-custom">
+    <div class="swiper1 div-custom">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper wrapper-custom">
             <!-- Slides -->
             <div class=" card grifondoro-custom swiper-slide d-flex flex-column align-items-center">
-                <img class="img-custom mb-3" src="./media/grifondoro.png" alt="">
+                <img class="img-custom mb-3" src="./media/grifondoro.png" alt="img casata grifondoro">
                 <h3 class="my-5 text-center">Casata dei grifondoro</h3>
                 <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi assumenda iure quisquam ratione atque commodi animi delectus fuga laudantium, maxime ipsam unde ipsum corporis hic, aliquam deleniti beatae. Praesentium, eveniet!</p>
             </div>
             <div class=" card tassorosso-custom swiper-slide d-flex flex-column align-items-center">
-                <img class="img-custom1" src="./media/tassorosso.png" alt="">
+                <img class="img-custom1" src="./media/tassorosso.png" alt="img casata tassorosso">
                 <h3 class="my-5 text-center pt-1">Casata dei tassorosso</h3>
                 <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi assumenda iure quisquam ratione atque commodi animi delectus fuga laudantium, maxime ipsam unde ipsum corporis hic, aliquam deleniti beatae. Praesentium, eveniet!</p>
             </div>
             <div class=" card serpeverde-custom swiper-slide d-flex flex-column align-items-center">
-                <img class="img-custom mb-3" src="./media/serpeverde.png" alt="">
+                <img class="img-custom mb-3" src="./media/serpeverde.png" alt="img casata serpeverde">
                 <h3 class="my-5 text-center">Casata dei serpeverde</h3>
                 <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi assumenda iure quisquam ratione atque commodi animi delectus fuga laudantium, maxime ipsam unde ipsum corporis hic, aliquam deleniti beatae. Praesentium, eveniet!</p>
             </div>
             <div class=" card corvonero-custom swiper-slide d-flex flex-column align-items-center">
-                <img class="img-custom mb-3" src="./media/corvonero.png" alt="">
+                <img class="img-custom mb-3" src="./media/corvonero.png" alt="img casata corvonero">
                 <h3 class="my-5 text-center">Casata dei corvonero</h3>
                 <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi assumenda iure quisquam ratione atque commodi animi delectus fuga laudantium, maxime ipsam unde ipsum corporis hic, aliquam deleniti beatae. Praesentium, eveniet!</p>
             </div>
@@ -68,16 +74,39 @@
         <div class="swiper-button-next"></div>
         
     </div>
+    <!-- section casate fine -->
+
     
+    <!-- section numeri incrementali inizio -->
     <div class="container h-100">
-        <div class="row">
-            <div class="col-12 col-md-8">
-                
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 my-4 pt-4">
+                <img class="img-pozioni" src="./media/pozioni harry.webp" alt="immagine harry potter 2">
             </div>
-            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-6 my-5 pt-5">
+                <p><span class="number me-3" id="numero1">0</span>Pozioni create</p>
+                <p class="mt-5"><span class="number me-3" id="numero2">0</span>Incantesimi imparati</p>
+                <p class="mt-5"><span class="number me-3" id="numero3">0</span>Maledizioni lanciate</p>
+            </div>
         </div>
     </div>
+    <!-- section numeri incrementali fine -->
     
+
+    <!-- swiper recensioni inizio -->
+        <div class="swiper swiper2Custom my-5">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper2 swiper-wrapper">
+                <!-- Slides -->
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-next next-review"></div>
+            <div class="swiper-button-prev prev-review"></div>
+            
+        </div>
+    <!-- swiper recensioni fine -->
+
+        
     <!-- <button class="btn mt-5 ms-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
         Filtra per <i class="fa-solid fa-sliders i-custom2"></i>
     </button>
