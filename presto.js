@@ -44,7 +44,7 @@ function createInterval(n, element, time) {
     },time);
     setTimeout(()=>{
         check = true;
-    },25000);
+    },30000);
 }
 // fine function
 
@@ -67,7 +67,7 @@ observer.observe(numero1);
 
 let reviews = [
     {user: 'Luca', description: 'Il miglior sito di sempre', rank: 5},
-    {user: 'Matteo', description: 'Sito ben progettato', rank: 4},
+    {user: 'Matteo', description: 'Sito ben progettato', rank: 3},
     {user: 'Sonia', description: 'Design pessimo', rank: 2},
     {user: 'Marta', description: 'Adoro Harry Potter', rank: 5},
     {user: 'Tonio', description: 'Preferisco i Pokémon', rank: 1},
@@ -118,5 +118,8 @@ const swiper2 = new Swiper('.swiper2Custom', {
     navigation: {
         nextEl: '.next-review',
         prevEl: '.prev-review',
+    },
+    autoplay: {
+        delay: 3000,
     },
 });

@@ -115,25 +115,61 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    
 }
 .card-review{
     height: 250px;
-    width: 400px;
+    width: 350px;
     border: 2px solid rgb(4, 141, 151);
     border-radius: 10px;
 }
 
 /* fine swiper2 */
-@media (max-width: 450px) {
-    .presto-custom{
-        height: 25%;
-        width: 80%;
+
+/* inizio Media Query */
+@media (max-width: 992px) {
+    .number{
+        font-size: 30px;
+        font-weight: 500;
     }
     .img-pozioni{
-        height: 25%;
+        height: 75%;
         width: 95%; 
         padding-left: 0%;
         padding-right: 0%;
     }
 }
+@media (max-width: 576px) {
+    .wrapper-custom{
+        width: 80vw;
+    }
+    .grifondoro-custom{
+        height: 85vh;
+    }
+    .tassorosso-custom{
+        height: 85vh;
+    }
+    
+    .serpeverde-custom{
+        height: 85vh;
+    }
+    
+    .corvonero-custom{
+        height: 85vh;
+    }
+    p{
+        font-size: 10px;
+    }
+    .presto-custom{
+        height: 25%;
+        width: 80%;
+    }
+    .img-pozioni{
+        margin-top: 40px;
+        height: 25%;
+        width: 95%; 
+        padding-left: 5%;
+    } 
+}
+
+/* fine Media Query */
