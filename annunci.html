@@ -30,41 +30,55 @@
                 </ul>
             </div>
         </div>
-
+        
     </header>
     <!-- header fine -->
-<h1 class="mt-5 pt-5 text-center">Annunci</h1>
-
-
-
-
-    
-
+    <h1 class="mt-5 pt-5 text-center">Annunci</h1>
+    <aside>
+        <button class="btn mt-5 ms-5 button-custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Filtra <i class="fa-solid fa-sliders i-custom2"></i>
+        </button>
         
-    <!-- <button class="btn mt-5 ms-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-        Filtra per <i class="fa-solid fa-sliders i-custom2"></i>
-    </button>
-    
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Filtra</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            <div>
-                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Filtra per:</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+            <h6 class="ms-3 mt-2">Categoria</h6>
+            <div id="radioWrapper" class="offcanvas-body">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="categories" id="All" checked>
+                    <label class="form-check-label" for="flexRadioDefault1"></label>
+                    Tutte le categorie
+                </div> 
+            </div>
+            <h6 class="ms-3 mt-1">Prezzo</h6>
+            <div id="radioWrapper" class="offcanvas-body">
+                <input id="priceInput" type="range" class="w-75" value="50" min="0" max="100">
+                <p class="lead" id="priceValue">0</p>
+            </div> 
+            
+            <h6 class="ms-3 mt-1">Parola</h6>
+            <div id="radioWrapper" class="offcanvas-body">
+                <input id="wordInput" type="text">
+
+            </div>
+            
         </div>
+    </aside> 
+    
+    <div id="cardWrapper" class="col-12 col-md-9 d-flex justify-content-around flex-wrap">
     </div>
-</aside> -->
-<!-- swiper js -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-<!-- script Bootstrap js -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-<!-- script JS -->
-<script src="./annunci.js"></script>
-<!-- script Fontawesome -->
-<script src="https://kit.fontawesome.com/ca46e4f55b.js" crossorigin="anonymous"></script>
+    
+    
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- script Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- script JS -->
+    <script src="./annunci.js"></script>
+    <!-- script Fontawesome -->
+    <script src="https://kit.fontawesome.com/ca46e4f55b.js" crossorigin="anonymous"></script>
 </body>
 </html>
 

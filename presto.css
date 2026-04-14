@@ -102,6 +102,14 @@ a{
 }
 /* fine swiper1 */
 
+/* inizio hr */
+hr{
+    border: none;
+    width: 85%;
+    height: 1.3px;
+    background-color:  black;
+}
+/* fine hr */
 
 /* inizio swiper2 */
 
@@ -173,3 +181,37 @@ a{
 }
 
 /* fine Media Query */
+
+/* buttons */
+.button-custom{
+    background-color: rgba(4, 141, 151, 0.6);
+    border-radius: 50px;
+    transition: 0.6s;
+    margin-bottom: 5px;
+    position: relative;
+    left: 1150px;
+}
+.button-custom:hover{
+    background-color: rgba(4, 141, 151, 0.6);
+    transform: scale(1.2);
+    
+}
+/* fine buttons */
+
+
+/* INIZIO ANNUNCI */
+.card-custom{
+    width: 30%;
+    border: 2px solid rgb(4, 141, 151);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.img-card{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+/* FINE ANNUNCI */
