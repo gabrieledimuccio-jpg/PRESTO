@@ -67,10 +67,10 @@ observer.observe(numero1);
 
 let reviews = [
     {user: 'Luca', description: 'Il miglior sito di sempre', rank: 5},
-    {user: 'Matteo', description: 'Sito ben progettato', rank: 3},
-    {user: 'Sonia', description: 'Design pessimo', rank: 2},
+    {user: 'Matteo', description: 'È un sito ben progettato', rank: 3},
+    {user: 'Sonia', description: 'Un design veramente pessimo', rank: 2},
     {user: 'Marta', description: 'Adoro Harry Potter', rank: 5},
-    {user: 'Tonio', description: 'Preferisco i Pokémon', rank: 1},
+    {user: 'Tonio', description: 'Molto meglio i Pokémon', rank: 1},
 ]
 
 let swiperWrapper2 = document.querySelector('.swiper-wrapper2');
