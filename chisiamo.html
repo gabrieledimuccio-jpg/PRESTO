@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>| Chi siamo</title>
+    <title>| I Fondatori</title>
     <!-- swiper js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <!-- link bootstrap -->
@@ -25,29 +25,35 @@
                         <a class="nav-link" href="./annunci.html">Annunci</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Chi Siamo</a>
+                        <a class="nav-link" href="./chisiamo.html">I Fondatori</a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
-    <h1 class="text-center h1-custom">Chi siamo</h1>
+    <h1 class="text-center h1-custom">I Fondatori</h1>
     
-    <section class="container-fluid">
+    <section class="container-fluid ">
         <div class="row vh-75">
             <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                <div class="circle">
+                <div class="circle mt-5">
                     <div class="opener">
                         <i class="fa-solid fa-plus fa-3x"></i>
                     </div>
-                    <div class="moved"></div>
-                    <div class="moved"></div>
-                    <div class="moved"></div>
-                    <div class="moved"></div>
+                    
                 </div>
             </div>
-            <div class="col-12 col-md-6">
-                Flip card
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="flip-card d-none">
+                    <div class="inner">
+                        <div class="inner-face"></div>
+                        <div class="inner-back">
+                            <p id="cardName" class="h4"></p>
+                            <p id="cardName2" class="h4"></p>
+                            <p id="cardDescription" class="lead"></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
